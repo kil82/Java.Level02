@@ -36,7 +36,7 @@ public class MainClass {
                 "utdqjuqopxi fdczngozfwggefukpfwry jpdyqze  jevjs";
         String[] stringArray = s.split("\n");
         for (int i = 0; i < stringArray.length; i++) {
-            System.out.println("Count symbol for line " + i + " = " + (stringArray[i].split("[a,o,u,i,e,y]").length - 1));
+            System.out.println("Count symbol for line[ " + i + "] = " + (stringArray[i].split("[a,o,u,i,e,y]").length - 1));
         }
     }
 }
